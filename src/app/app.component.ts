@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'telteg';
+  Aside!:number;
+  Bside!:number;
+  price!:number;
+  calcArea():void{
+    
+    let area=this.Aside*this.Bside*2;
+    
+    
+    
+    console.log('Müködik')
+  }
 }
